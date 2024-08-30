@@ -1,2 +1,3 @@
 # Portfolio
-Personal website for showcasing my experience
+
+Personal website for showcasing my past experiences
