@@ -1,4 +1,5 @@
 import "./App.css";
+import Content from "./content";
 import NavBar from "./nav";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
         <NavBar />
       </div>
       <div className="bg-gray-300 w-3/5 h-screen">
-        <p>Right section</p>
+        <Content />
       </div>
     </div>
   );

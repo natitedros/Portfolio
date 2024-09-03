@@ -2,11 +2,12 @@ interface NavBarProps {}
 
 const NavBar: React.FunctionComponent<NavBarProps> = () => {
   return (
-    <div className="p-10 sm:p-5 flex flex-col justify-evenly h-screen">
-      <div id="intro">
+    <div className="p-15 sm:p-10 flex flex-col justify-evenly h-screen">
+      <div id="intro" className="text-justify">
         <h1 className="text-5xl font-extrabold">Natnael Desta</h1>
         <h3 className="text-2xl">Software Engineer</h3>
-        <p className="p-5 sm:p-3">
+        <br />
+        <p className="">
           Software engineer with over 3 years of industry experience in web and
           mobile application systems development for the healthcare and
           consumer-based industry.
