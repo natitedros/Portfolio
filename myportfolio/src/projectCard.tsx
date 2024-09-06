@@ -1,24 +1,40 @@
-interface ProjectCardProps {
-  //   projectLink: String;
-  //   techStack: String[];
-  //   duration: String[];
-  //   description: String;
+export interface ProjectCardProps {
+  title: String;
+  company: String;
+  projectLink: String;
+  techStack: String[];
+  duration: String[];
+  description: String;
 }
 
-const ProjectCard: React.FunctionComponent<ProjectCardProps> = () => {
-  const tech = ["react", "tailwind", "typescript"];
+const ProjectCard: React.FunctionComponent<ProjectCardProps> = ({
+  title,
+  company,
+  projectLink,
+  techStack,
+  duration,
+  description,
+}) => {
   return (
-    <div className="rounded-lg hover:bg-neutral-400 transition-colors m-6 p-2 shadow flex flex-row">
-      <div className="w-1/4">2000-2004</div>
-      <div className="w-3/4 text-justify">
-        <article>
-          This is the place i describe what i have done and stuff
-        </article>
-        {tech.map((t) => (
-          <button className="m-2 p-2 hover:bg-slate-500 transition-colors rounded-lg">
-            {t}
-          </button>
-        ))}
+    <div className="rounded-lg hover:bg-lime-950 transition-colors m-5 p-7 shadow flex flex-col">
+      <div className="flex flex-row justify-start">
+        <h1 className="text-xl align-center">{title}</h1>
+        <p className="mx-2">•</p>
+        <h3 className="text-lg">{company}</h3>
+      </div>
+      <div className="flex flex-row">
+        <div className="w-1/4">
+          {duration[0]} - {duration.length === 1 && <span>Present</span>}
+          {duration.length === 2 && <span>{duration[1]}</span>}
+        </div>
+        <div className="w-3/4 text-justify">
+          <article>{description}</article>
+          {techStack.map((t) => (
+            <button className="m-2 p-2 hover:bg-slate-500 transition-colors rounded-lg">
+              {t}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );

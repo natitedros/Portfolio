@@ -4,13 +4,9 @@ import NavBar from "./nav";
 
 function App() {
   return (
-    <div className="App flex font-mono">
-      <div className="w-2/5 h-screen bg-slate-300">
-        <NavBar />
-      </div>
-      <div className="bg-gray-300 w-3/5 h-screen">
-        <Content />
-      </div>
+    <div className="App flex font-mono text-sm bg-lime-900 text-gray-400">
+      <NavBar />
+      <Content />
     </div>
   );
 }
