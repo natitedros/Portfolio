@@ -30,6 +30,15 @@ const Experince: React.FunctionComponent<ExperinceProps> = () => {
     },
     {
       projectLink: "link",
+      title: "Student Mentor",
+      company: "A2SV Foundation",
+      description: `Gave lectures and conducted one-on-one sessions 
+      on Data-Structures and Algorithm topics.`,
+      techStack: ["Python", "Data Structures", "Algorithms"],
+      duration: ["2022", "2023"],
+    },
+    {
+      projectLink: "link",
       title: "Embedded Systems Engineering Intern",
       company: "New Era R&D",
       description: `Was a team lead for a microcontroller project
@@ -41,6 +50,7 @@ const Experince: React.FunctionComponent<ExperinceProps> = () => {
   ];
   return (
     <div className="">
+      <h3>Work Experience</h3>
       {experinces.map((experience) => (
         <ProjectCard
           title={experience.title}

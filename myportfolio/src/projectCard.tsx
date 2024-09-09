@@ -16,7 +16,7 @@ const ProjectCard: React.FunctionComponent<ProjectCardProps> = ({
   description,
 }) => {
   return (
-    <div className="rounded-lg hover:bg-lime-950 transition-colors m-5 p-7 shadow flex flex-col">
+    <div className="rounded-lg hover:bg-lime-950 transition-colors mx-10 my-3 px-2 hover:px-4 shadow flex flex-col hover:text-white">
       <div className="flex flex-row justify-start">
         <h1 className="text-xl align-center">{title}</h1>
         <p className="mx-2">•</p>

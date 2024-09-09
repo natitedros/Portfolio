@@ -15,29 +15,35 @@ const NavBar: React.FunctionComponent<NavBarProps> = () => {
       </div>
       <div id="nav">
         <ul className="">
-          <li>About</li>
-          <li>Work Experience</li>
-          <li>Key Skills</li>
-          <li>Personal Projects</li>
-          <li>Awards</li>
+          <li>What I Do</li>
+          <li>Skills</li>
+          <li>Experience</li>
+          <li>Projects</li>
+          <li>Contact</li>
         </ul>
       </div>
       <div id="links" className="flex justify-center ">
-        <img
-          className="size-10 m-5"
-          src="/assets/github.512x499.png"
-          alt="Github icon"
-        />
-        <img
-          className="size-10 m-5"
-          src="/assets/linkedin.512x512.png"
-          alt="Linkedin icon"
-        />
-        <img
-          className="size-10 m-5"
-          src="/assets/instagram.512x512.png"
-          alt="Insta icon"
-        />
+        <a href="https://github.com/natitedros">
+          <img
+            className="size-10 m-5"
+            src="/assets/github.512x499.png"
+            alt="Github icon"
+          />
+        </a>
+        <a href="https://linked.in/natitedros">
+          <img
+            className="size-10 m-5"
+            src="/assets/linkedin.512x512.png"
+            alt="Linkedin icon"
+          />
+        </a>
+        <a href="https://www.instagram.com/nati_tedros/">
+          <img
+            className="size-10 m-5"
+            src="/assets/instagram.512x512.png"
+            alt="Insta icon"
+          />
+        </a>
       </div>
     </div>
   );
