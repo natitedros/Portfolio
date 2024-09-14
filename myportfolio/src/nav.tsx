@@ -3,19 +3,19 @@ interface NavBarProps {}
 const NavBar: React.FunctionComponent<NavBarProps> = () => {
   return (
     <div className="w-2/5 p-15 sm:p-10 flex flex-col justify-evenly h-screen">
-      <div id="intro" className="text-justify">
+      <div id="intro" className="text-left">
         <h1 className="text-5xl font-extrabold">Natnael Desta</h1>
         <h3 className="text-2xl">Software Engineer</h3>
         <br />
-        <p className="">
-          Software engineer with over 3 years of industry experience in web and
-          mobile application systems development for the healthcare and
-          consumer-based industry.
+        <p className="text-lg">
+          I build pixel-perfect, engaging, and accessible digital experiences
+          With over 3 years of industry experience in web and mobile application
+          systems development for the healthcare and consumer-based industry.
         </p>
       </div>
       <div id="nav">
         <ul className="">
-          <li>What I Do</li>
+          <li className="hover:text-yellow-200">What I Do</li>
           <li>Skills</li>
           <li>Experience</li>
           <li>Projects</li>

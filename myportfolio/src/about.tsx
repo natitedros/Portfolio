@@ -2,7 +2,7 @@ interface AboutProps {}
 
 const About: React.FunctionComponent<AboutProps> = () => {
   return (
-    <div className="text-justify m-10 px-10 sm:px-7">
+    <div className="my-5 text-lg">
       <article>
         An inquisitive Computer engineering fresh graduate who loves social
         interaction. Eager to learn, grow, and make meaningful contributions to

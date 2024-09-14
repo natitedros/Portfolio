@@ -7,7 +7,7 @@ interface ContentProps {}
 
 const Content: React.FunctionComponent<ContentProps> = () => {
   return (
-    <div className="w-3/5 h-screen overflow-y-auto flex flex-col pt-24">
+    <div className="w-3/5 h-screen flex flex-col pt-24 overflow-y-auto mx-5 px-10 text-start">
       <About />
       <Skills />
       <Experince />

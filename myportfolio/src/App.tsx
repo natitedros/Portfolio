@@ -4,7 +4,7 @@ import NavBar from "./nav";
 
 function App() {
   return (
-    <div className="App flex font-mono text-sm bg-lime-900 text-gray-400">
+    <div className="App flex text-sm bg-blue-950 text-gray-300 justify-evenly">
       <NavBar />
       <Content />
     </div>

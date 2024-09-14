@@ -20,8 +20,8 @@ const Skills: React.FunctionComponent<SkillsProps> = () => {
   ];
   const tools: String[] = ["Git & Github", "Postman", "MongoDB", "Bash"];
   return (
-    <div className="flex flex-row justify-between px-20">
-      <h1 className="">SKILLS</h1>
+    <div className="flex flex-row justify-start my-5">
+      <h1 className="text-lg">SKILLS</h1>
       <div className="flex flex-row">
         <ul className="text-left px-10">
           LANGUAGES
