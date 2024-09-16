@@ -45,21 +45,33 @@ const NavBar: React.FunctionComponent<NavBarProps> = () => {
         </ul>
       </div>
       <div id="links" className="flex justify-center ">
-        <a href="https://github.com/natitedros" target="_blank">
+        <a
+          href="https://github.com/natitedros"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             className="size-10 m-5"
             src="/assets/github.512x499.png"
             alt="Github icon"
           />
         </a>
-        <a href="https://linked.in/natitedros" target="_blank">
+        <a
+          href="https://linked.in/natitedros"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             className="size-10 m-5"
             src="/assets/linkedin.512x512.png"
             alt="Linkedin icon"
           />
         </a>
-        <a href="https://www.instagram.com/nati_tedros/" target="_blank">
+        <a
+          href="https://www.instagram.com/nati_tedros/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             className="size-10 m-5"
             src="/assets/instagram.512x512.png"

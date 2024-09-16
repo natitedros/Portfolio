@@ -16,7 +16,12 @@ const ProjectCard: React.FunctionComponent<ProjectCardProps> = ({
   description,
 }) => {
   return (
-    <a href={projectLink} target="_blank" className="group">
+    <a
+      href={projectLink}
+      target="_blank"
+      className="group"
+      rel="noopener noreferrer"
+    >
       <div className="rounded-lg transition-colors my-3 px-5 shadow flex flex-col hover:text-white hover:bg-opacity-5 hover:bg-white">
         <div className="flex flex-row justify-start">
           <h1 className="text-xl align-center group-hover:text-yellow-600">
