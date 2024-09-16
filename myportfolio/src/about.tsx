@@ -2,15 +2,14 @@ interface AboutProps {}
 
 const About: React.FunctionComponent<AboutProps> = () => {
   return (
-    <div className="my-5 text-lg">
+    <div id="about" className="text-lg pt-10">
       <article>
-        An inquisitive Computer engineering fresh graduate who loves social
-        interaction. Eager to learn, grow, and make meaningful contributions to
-        the tech industry.
-        <br />
-        <br />I am a Software engineer with over 3 years of industry experience
-        in web and mobile application systems development for the healthcare and
-        consumer-based industry.
+        I am an inquisitive Computer engineering graduate with passion for
+        software development and social interaction. Eager to learn, grow, and
+        make meaningful contributions to the tech industry.
+        <br />I hold over 3 years of industry experience in web and mobile
+        application systems development for the healthcare and consumer-based
+        industry.
       </article>
     </div>
   );

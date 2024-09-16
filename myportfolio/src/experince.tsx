@@ -5,7 +5,7 @@ interface ExperinceProps {}
 const Experince: React.FunctionComponent<ExperinceProps> = () => {
   const experinces: ProjectCardProps[] = [
     {
-      projectLink: "link",
+      projectLink: "https://korenticraft.com/",
       title: "Software Engineer",
       company: "Korenti Craft Technologies",
       description: `Developed a C# Interop system to integrate a Hematology Analyzer (hospital lab equipment) to 
@@ -17,7 +17,7 @@ const Experince: React.FunctionComponent<ExperinceProps> = () => {
       duration: ["2022"],
     },
     {
-      projectLink: "link",
+      projectLink: "https://a2sv.org/",
       title: "Software Engineer",
       company: "A2SV Foundation",
       description: `Non-profit company funded by Google that connects students with top silicon valley companies.
@@ -29,7 +29,7 @@ const Experince: React.FunctionComponent<ExperinceProps> = () => {
       duration: ["2023", "2024"],
     },
     {
-      projectLink: "link",
+      projectLink: "https://leetcode.com/natitedros",
       title: "Student Mentor",
       company: "A2SV Foundation",
       description: `Gave lectures and conducted one-on-one sessions 
@@ -38,7 +38,7 @@ const Experince: React.FunctionComponent<ExperinceProps> = () => {
       duration: ["2022", "2023"],
     },
     {
-      projectLink: "link",
+      projectLink: "https://www.linkedin.com/company/nerdet/",
       title: "Embedded Systems Engineering Intern",
       company: "NERD Center",
       description: `Was a team lead for a microcontroller project
@@ -49,8 +49,8 @@ const Experince: React.FunctionComponent<ExperinceProps> = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-start">
-      <h3 className="text-xl">Experiences</h3>
+    <div className="flex flex-col justify-start pt-10" id="experience">
+      <h3 className="text-xl font-bold">EXPERIENCES</h3>
       {experinces.map((experience) => (
         <ProjectCard
           title={experience.title}

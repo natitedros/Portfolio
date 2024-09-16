@@ -7,7 +7,8 @@ const Projects: React.FunctionComponent<ProjectsProps> = () => {
     {
       title: "Car Accident Management System",
       company: "BSc final project",
-      projectLink: "link",
+      projectLink:
+        "https://drive.google.com/file/d/1w-Nh51HnTc-zfUFYV0To3ou6D8O7LDki/view?usp=sharing",
       techStack: ["Dart", "Flutter", "NodeJs", "C"],
       duration: ["2022", "2023"],
       description: `Final year thesis project initiated to deliver quick response 
@@ -20,7 +21,7 @@ const Projects: React.FunctionComponent<ProjectsProps> = () => {
     {
       title: "Typing Test",
       company: "Personal",
-      projectLink: "link",
+      projectLink: "https://github.com/natitedros/Typing-Test",
       techStack: ["React", "Tailwind", "Typescript", "NodeJs"],
       duration: ["2023", "2024"],
       description: `A web based application that measures typing speed by 
@@ -29,7 +30,7 @@ const Projects: React.FunctionComponent<ProjectsProps> = () => {
     {
       title: "Mekdim School Portal",
       company: "School",
-      projectLink: "link",
+      projectLink: "https://github.com/NathanZK/Mekdim",
       techStack: ["MySQL", "EJS", "NodeJs"],
       duration: ["2022", "2022"],
       description: `A web based application that allows students to register 
@@ -38,8 +39,8 @@ const Projects: React.FunctionComponent<ProjectsProps> = () => {
     },
   ];
   return (
-    <div className="my-5">
-      <h3 className="text-xl">Projects</h3>
+    <div className="pt-10" id="projects">
+      <h3 className="text-xl font-bold">PROJECTS</h3>
       {projects.map((project) => (
         <ProjectCard
           title={project.title}
