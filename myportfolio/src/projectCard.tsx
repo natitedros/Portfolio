@@ -27,7 +27,7 @@ const ProjectCard: React.FunctionComponent<ProjectCardProps> = ({
           <h1 className="text-xl align-center group-hover:text-yellow-600">
             {title}
           </h1>
-          <p className="mx-2">•</p>
+          <p className="mx-2"> &#8226;</p>
           <h3 className="text-lg group-hover:mr-3 group-hover:text-yellow-600">
             {company}
           </h3>

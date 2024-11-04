@@ -10,8 +10,7 @@ const Experince: React.FunctionComponent<ExperinceProps> = () => {
       company: "Empire Transportation Provider Inc.",
       description: `Worked on an employee management system that automated employee invoice generation and distribution.
         ● Used Python Flask framework with PostgreSQL and hosted the service on AWS infrastructure, utilizing EC2 and
-        Amazon S3 to implement efficient feature hosting and access to employee data.
-        Worked on full-stack development of inventory management system for a retail store using Spring Boot framework`,
+        Amazon S3 to implement efficient feature hosting and access to employee data.`,
       techStack: ["Python", "Flask", "AWS"],
       duration: ["2024"],
     },
@@ -37,7 +36,7 @@ const Experince: React.FunctionComponent<ExperinceProps> = () => {
       Worked on a food and restaurant rating mobile app called RateEat that is currently deployed and in use in Ethiopia.
       Focused on overseeing clean architecture and state management of the project. ● 
       I worked with both frontend, and product teams adding value to the application to generate funds from Google.`,
-      techStack: ["Flutter", "VueJs", "Bloc"],
+      techStack: ["Flutter", "Bloc"],
       duration: ["2023", "2024"],
     },
     {
@@ -47,7 +46,7 @@ const Experince: React.FunctionComponent<ExperinceProps> = () => {
       description: `Gave lectures and conducted one-on-one sessions 
       on Data-Structures and Algorithm topics. ● 
       Implemented the web application for a food and restaurant rating platform with 30+ team members by utilizing task and team management tools (JIRA and GitHub).`,
-      techStack: ["Python", "Data Structures", "Algorithms"],
+      techStack: ["Python", "Data Structures", "Algorithms", "Vue.Js"],
       duration: ["2022", "2023"],
     },
     {
