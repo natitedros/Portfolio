@@ -5,35 +5,48 @@ interface ExperinceProps {}
 const Experince: React.FunctionComponent<ExperinceProps> = () => {
   const experinces: ProjectCardProps[] = [
     {
-      projectLink: "https://korenticraft.com/",
+      projectLink: "https://empiretransportationprovider.com/",
+      title: "Software Engineer",
+      company: "Empire Transportation Provider Inc.",
+      description: `Worked on an employee management system that automated employee invoice generation and distribution.
+        ● Used Python Flask framework with PostgreSQL and hosted the service on AWS infrastructure, utilizing EC2 and
+        Amazon S3 to implement efficient feature hosting and access to employee data.
+        Worked on full-stack development of inventory management system for a retail store using Spring Boot framework`,
+      techStack: ["Python", "Flask", "AWS"],
+      duration: ["2024"],
+    },
+    {
+      projectLink: "https://korentihealth.com/",
       title: "Software Engineer",
       company: "Korenti Craft Technologies",
       description: `Developed a C# Interop system to integrate a Hematology Analyzer (hospital lab equipment) to 
-        a web based Hospital Management System with over 85,000 patient data in Addis Ababa, Ethiopia.
+        a web based Hospital Management System with over 85,000 patient data in Addis Ababa, Ethiopia.  ● 
         Designed and implemented customized user interfaces for multiple clients (clinics) that resulted in 
-        over 30% increase in their daily patient data processing.
-        Worked on full-stack development of inventory management system for a retail store using Spring Boot framework`,
+        over 30% increase in their daily patient data processing. ● 
+        Worked on full-stack development of inventory management system for a retail store using Spring Boot framework  
+        ● Working on marketable plugin development for JetBrains using Kotlin, enhancing IDE functionality.`,
       techStack: ["Spring Boot", "Java", "C#", "Kotlin", "React", "Typescript"],
       duration: ["2022"],
     },
     {
-      projectLink: "https://a2sv.org/",
+      projectLink:
+        "https://play.google.com/store/apps/details?id=org.a2sv.rateeat_mobile",
       title: "Software Engineer",
       company: "A2SV Foundation",
       description: `Non-profit company funded by Google that connects students with top silicon valley companies.
       Worked on a food and restaurant rating mobile app called RateEat that is currently deployed and in use in Ethiopia.
-      Focused on overseeing clean architecture and state management of the project.
-      Implemented the web application for the rating platform  with thirty plus team members.
-      Worked with frontend, and product teams adding value to the application to generate funds from Google.`,
+      Focused on overseeing clean architecture and state management of the project. ● 
+      I worked with both frontend, and product teams adding value to the application to generate funds from Google.`,
       techStack: ["Flutter", "VueJs", "Bloc"],
       duration: ["2023", "2024"],
     },
     {
       projectLink: "https://leetcode.com/natitedros",
-      title: "Student Mentor",
+      title: "Software Engineering Mentor",
       company: "A2SV Foundation",
       description: `Gave lectures and conducted one-on-one sessions 
-      on Data-Structures and Algorithm topics.`,
+      on Data-Structures and Algorithm topics. ● 
+      Implemented the web application for a food and restaurant rating platform with 30+ team members by utilizing task and team management tools (JIRA and GitHub).`,
       techStack: ["Python", "Data Structures", "Algorithms"],
       duration: ["2022", "2023"],
     },
